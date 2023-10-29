@@ -9,5 +9,6 @@ int main() {
 	 	cout << my_num[i] << endl;
 	 	
 	 }
-	
+	 
+	 return 0;
 }
