@@ -1,0 +1,4 @@
+char name2[] = "agrim";
+char name[] = {'a' , 'g', 'r', 'i', 'm', 0};
+
+every string defined as name2 in C++ always has a zero as a terminating character.
