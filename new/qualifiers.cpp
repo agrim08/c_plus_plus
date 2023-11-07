@@ -16,7 +16,6 @@ int main(){
 	life = lifeUp();
 	cout << "Your updated game life is: " << life << endl;
 
-
 	return 0;
 
 }

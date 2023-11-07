@@ -14,4 +14,4 @@ int main(){
 		cout << "both datatype matches";
 	}
 	return 0;	
-}
+} 

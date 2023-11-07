@@ -12,7 +12,7 @@ int main(){
 	cout << whatIgot << endl;
 	
 	void (*pointstoInteresting)() = interesting;
-	pointstoInteresting();
+	pointstoInteresting(); //we here are using pointer like a function.
 	(*pointstoInteresting)();
 	
 	//both above ways are same you can choose one :)

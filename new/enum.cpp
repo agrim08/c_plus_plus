@@ -14,7 +14,6 @@ int main(){
 //	int myAttribute = UNDERLINES;
 	int myAttribute = UNDERLINES;
 	cout << myAttribute << endl;
-	
-	
+//there is always autoincremation in enum :)
 	return 0;
 }
