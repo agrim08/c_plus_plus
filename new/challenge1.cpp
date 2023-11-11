@@ -4,6 +4,7 @@ using namespace std;
 int main() {
 	
 	int rating;
+	cout << "enter the rating: " << endl;
 	cin >> rating;
 	
 	if(rating == 1) {

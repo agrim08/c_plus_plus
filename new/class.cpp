@@ -7,9 +7,7 @@ class User{
 	
 public:
 	string name = "deafult";
-	void classMessage(){
-		cout << "Class is great "<< name << endl;
-	}
+	void classMessage(){cout << "Class is great "<< name << endl;}
 	void setSecret(const int &reference){secret = reference;}
 	int getSecret(){return secret;}
 	
@@ -29,5 +27,14 @@ int main(){
 	ansh.name = "Ansh";
 	ansh.classMessage();
 	
+	User rock;
+	cout << rock.getSecret() << endl;
+	
+	User peter = sam;
+	cout << peter.getSecret() << endl;
+	
+	
+	
 	return 0;
 }
+
