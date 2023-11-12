@@ -1,3 +1,6 @@
+// Note: The switch expression should evaluate to either integer or character. 
+// It cannot evaluate any other data type.
+
 #include <iostream>
 using namespace std;
 
