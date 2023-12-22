@@ -6,25 +6,12 @@ void arrayReverse(int arr[], int n){
     int start = 0;
     int end = n-1;
     
-    while(start>=end){
+    while(start<=end){
         swap(arr[start],arr[end]);
         start++;
         end--;
     }
 }
-
-int swap(int a, int b)
-{
-    int temp;
-
-    temp = a;
-    a = b;
-    b = temp;
-
-    return a,b;
-
-}
-
 
 void printArr(int arr[], int n){
 
